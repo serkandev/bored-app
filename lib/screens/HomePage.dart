@@ -7,6 +7,7 @@ import 'package:im_bored/model/activity_model.dart';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:im_bored/product/constants/colors.dart';
 import 'package:im_bored/product/constants/padding_items.dart';
 import 'package:im_bored/product/constants/project_texts.dart';
 import 'package:im_bored/product/constants/service.dart';
@@ -61,7 +62,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromRGBO(190, 215, 212, 1),
+      backgroundColor: ColorsUtility().backgroundColor,
       body: SafeArea(
         child: Padding(
           padding: PaddingUtility().paddingOnlyRL10,
@@ -94,8 +95,7 @@ class _HomePageState extends State<HomePage> {
                           width: MediaQuery.of(context).size.width * 0.7,
                           height: 50,
                           child: Flat3dButton.text(
-                            color: Colors.lightGreen,
-                            textColor: Colors.white,
+                            color: ColorsUtility().buttonColor,
                             onPressed: () {
                               fetchModel();
                               setState(() {

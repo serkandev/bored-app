@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:im_bored/model/activity_model.dart';
+import 'package:im_bored/product/constants/colors.dart';
 import 'package:im_bored/product/constants/project_texts.dart';
 import 'package:im_bored/product/widgets/textItem.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -17,7 +18,7 @@ class _activityImageState extends State<activityImage> {
   @override
   Widget build(BuildContext context) {
     return Card(
-        color: const Color.fromRGBO(249, 249, 249, 1),
+        color: ColorsUtility().cardBackgroundColor,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(50),
         ),

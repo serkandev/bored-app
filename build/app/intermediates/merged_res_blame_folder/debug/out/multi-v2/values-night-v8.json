@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/serkanmac/Desktop/im_bored 16-41-19-745/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/serkanmac/Desktop/Github/im_bored /bored-app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/serkanmac/Desktop/im_bored 16-41-19-745/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/serkanmac/Desktop/Github/im_bored /bored-app/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
